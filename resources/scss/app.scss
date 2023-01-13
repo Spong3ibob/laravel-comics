@@ -1,1 +1,19 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import '/resources/scss/variables.scss';
+
+
+// header
+.info{
+    background-color: var(--prymary-color);
+    color: white;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 100px;
+    }
+}
+span{
+    padding: 2.5px 10px;
+    font-size: 11px;
+}
